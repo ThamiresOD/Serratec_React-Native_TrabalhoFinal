@@ -1,0 +1,47 @@
+Vou deixar a descrição do trabalho final aqui no mural também =)
+Aplicativo para Gerenciar Ecommerce
+
+premissas:
+
+    Versionamento,
+    Organização do Código,
+    Layout Agradável,
+
+Requisitos do trabalho:
+
+    Página de Login, rota Autenticada, Context Api e função de logout
+
+    Pelo menos 2 tipos de Navegação
+
+    Página para exibir os produtos utilizando flatlist
+
+    Alguma opção para filtrar os produtos
+
+    Página com detalhes do produto selecionado
+
+    Gerenciamento do produto - CRUD com Axios, com validação dos inputs e feedback visual de erro
+
+    Loading em todas as interações assíncronas, mensagens de confirmação e de operações realizadas com sucesso
+
+    Página Contendo os Integrantes do Grupo
+
+
+Bônus:
+
+Monitoramento de conexão a internet - Caso o dispositivo não tenha acesso a internet, exibir a informação
+Uso de bibliotecas externas para estilização - Ex: Paper, Native base, Styled Components
+Splash Screen - Animação de entrada no aplicativo
+
+Salvar os produtos no banco de dados e permitir que sejam visualizados quando o dispositivo estiver offline
+
+
+
+
+
+
+Comandos:
+
+1 -> npx create-expo-app Ecommerce
+2 -> npx expo install react-native-web@~0.18.9 react-dom@18.1.0 @expo/webpack-config@^0.17.2
+3 -> npm install axios
+4 -> 
