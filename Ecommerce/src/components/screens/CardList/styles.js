@@ -1,6 +1,6 @@
 import { StyleSheet, Dimensions } from 'react-native';
 
-const { width } = Dimensions.get('window')
+// const { width } = Dimensions.get('window')
 
 export const styles = StyleSheet.create({
     
@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
     // },
 
     header: {
-        marginTop: '6%',
+        marginTop: '10%',
         marginStart: '10%',
     },
     
@@ -25,6 +25,21 @@ export const styles = StyleSheet.create({
         fontSize: 35,
         color: "#F0F4F2",
     },
+    
+    // search: {
+    //     color: "#F0F4F2",
+    //     backgroundColor: '#F0F4F2',
+    //     borderRadius: 200,
+    //     marginTop: '5%',
+    //     marginStart: '5%',
+    //     marginEnd: '10%',
+    // },
+    
+    // searchText: {
+    //     fontSize: 25,
+    //     color: "#F0F4F2",
+    //     marginStart: '5%',
+    // },
 
     imgProdCard: {
         position: 'absolute',
@@ -49,23 +64,23 @@ export const styles = StyleSheet.create({
     
     prodCardText: {
         position: 'absolute',
-        marginTop: '125%',
+        marginTop: '135%',
         marginStart: '15%',
-        width: '50%',
+        width: '65%',
         padding: '5%',
         height: '3%',
-        justifyContent: "center",        
+        justifyContent: "center",         
     },
     
     prodCardTextEsp: {
         color: "#071217",
-        fontSize: 16,
+        fontSize: 20,
     },
 
     prodCardTextName: {
         color: "#F0F4F2",
         fontSize: 25,
-        marginTop: '5%',
+        marginTop: '10%',
     },
     
     prodCardTextValue: {
@@ -104,7 +119,6 @@ export const styles = StyleSheet.create({
         marginStart: '8%',
         marginEnd: '8%',
         marginBottom: '10%',
-        // justifyContent: "center",
         alignItems: "center",
     },
     

@@ -4,7 +4,6 @@ import Home from './src/components/screens/Home';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Ecommerce</Text>
       <Home />
     </View>
   );
