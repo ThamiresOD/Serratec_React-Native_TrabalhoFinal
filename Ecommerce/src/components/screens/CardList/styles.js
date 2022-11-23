@@ -43,13 +43,13 @@ export const styles = StyleSheet.create({
 
     imgProdCard: {
         position: 'absolute',
-        marginTop: '30%',
+        marginTop: '40%',
         marginStart: '12%',
         justifyContent: "center",
         alignItems: "center",
         backgroundColor: '#071217',
         width: '75%',
-        height: '30%',
+        height: '28%',
         borderRadius: 200,
         padding: '15%',
     },

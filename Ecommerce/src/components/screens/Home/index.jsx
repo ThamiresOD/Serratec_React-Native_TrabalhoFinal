@@ -1,6 +1,7 @@
 import { SafeAreaView, ImageBackground } from 'react-native';
 import backgroundHome from '../../Images/3.jpg';
 import CardList from '../CardList';
+import CardProd from '../CardProd';
 import { styles } from './styles';
 // import img01 from '../../Images/amarelo.jpg';
 // import img02 from '../../Images/verde.jpg';
@@ -30,6 +31,7 @@ function Home() {
     <ImageBackground source={backgroundHome} style={styles.imgBackground}>
       <SafeAreaView>
         <CardList  data={data}/>
+        {/* <CardProd  data={data}/> */}
       </SafeAreaView>
     </ImageBackground>
   );

@@ -6,8 +6,8 @@ export const styles = StyleSheet.create({
         color: "#F0F4F2",
         backgroundColor: '#F0F4F2',
         borderRadius: 200,
-        marginTop: '15%',
-        marginStart: '5%',
+        marginBottom: '20%',
+        marginStart: '10%',
         marginEnd: '10%',
     },
     
