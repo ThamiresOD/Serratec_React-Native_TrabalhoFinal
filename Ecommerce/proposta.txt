@@ -44,4 +44,7 @@ Comandos:
 1 -> npx create-expo-app Ecommerce
 2 -> npx expo install react-native-web@~0.18.9 react-dom@18.1.0 @expo/webpack-config@^0.17.2
 3 -> npm install axios
-4 -> 
+4 -> npx install @react-navigation/native
+5 -> npx expo install react-native-screens react-native-safe-area-context
+6 -> npx install @react-navigation/bottom-tabs
+7 -> 
