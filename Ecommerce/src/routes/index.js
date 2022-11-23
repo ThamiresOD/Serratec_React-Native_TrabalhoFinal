@@ -2,8 +2,9 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import { Welcome } from "../components/screens/Welcome";
 import { Login } from "../components/screens/Login";
-import { Home } from "../components/screens/Home"
 import { RecuperarSenha } from "../components/screens/RecuperarSenha";
+import Home from "../components/screens/Home";
+import CardProd from "../components/screens/CardProd";
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +25,16 @@ export default function Routes () {
             <Stack.Screen  
                 name="RecuperarSenha"
                 component={RecuperarSenha}
+                options={{ headerShown: false}}
+            />
+            <Stack.Screen  
+                name="Home"
+                component={Home}
+                options={{ headerShown: false}}
+            />
+            <Stack.Screen  
+                name="CardProd"
+                component={CardProd}
                 options={{ headerShown: false}}
             />
         </Stack.Navigator>
