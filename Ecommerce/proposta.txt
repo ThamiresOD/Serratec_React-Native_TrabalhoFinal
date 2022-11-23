@@ -9,21 +9,21 @@ premissas:
 
 Requisitos do trabalho:
 
-    Página de Login, rota Autenticada, Context Api e função de logout
+  *  Página de Login, rota Autenticada, Context Api e função de logout
 
-    Pelo menos 2 tipos de Navegação
+  -  Pelo menos 2 tipos de Navegação
 
-    Página para exibir os produtos utilizando flatlist
+  * Página para exibir os produtos utilizando flatlist
 
-    Alguma opção para filtrar os produtos
+  * Alguma opção para filtrar os produtos
 
-    Página com detalhes do produto selecionado
+  * Página com detalhes do produto selecionado
 
-    Gerenciamento do produto - CRUD com Axios, com validação dos inputs e feedback visual de erro
+  -  Gerenciamento do produto - CRUD com Axios, com validação dos inputs e feedback visual de erro
 
-    Loading em todas as interações assíncronas, mensagens de confirmação e de operações realizadas com sucesso
+  -  Loading em todas as interações assíncronas, mensagens de confirmação e de operações realizadas com sucesso
 
-    Página Contendo os Integrantes do Grupo
+  * Página Contendo os Integrantes do Grupo
 
 
 Bônus:
@@ -44,4 +44,7 @@ Comandos:
 1 -> npx create-expo-app Ecommerce
 2 -> npx expo install react-native-web@~0.18.9 react-dom@18.1.0 @expo/webpack-config@^0.17.2
 3 -> npm install axios
-4 -> 
+4 -> npx install @react-navigation/native
+5 -> npx expo install react-native-screens react-native-safe-area-context
+6 -> npx install @react-navigation/bottom-tabs
+7 -> 
