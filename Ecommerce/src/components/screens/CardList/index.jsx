@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { styles } from './styles';
 import { Dimensions, FlatList, View, Text, TouchableOpacity, Image, TextInput } from 'react-native';
-import SearchList from "../../Search";
 import { useNavigation } from "@react-navigation/native";
+import SearchList from "../../Search";
+// import { Menu } from '../../Menu';
 
 const { width } = Dimensions.get('window')
 
@@ -17,6 +18,7 @@ const CardList = ({ data }) => {
 
     return (
         <>
+            {/* <Menu /> */}
             {/* // Titulo da tela */}
             <View style={styles.header}>
                 <Text style={styles.headerText}>Ecommerce</Text>
