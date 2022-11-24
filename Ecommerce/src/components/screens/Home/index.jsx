@@ -3,7 +3,7 @@ import backgroundHome from '../../Images/3.jpg';
 import CardList from '../CardList';
 import { styles } from './styles';
 
-function Home() {
+export default function Home() {
  
   const data = [
     {prodCardBack: '#93CA90', imgProdCard: '../../Images/amarelo.jpg', prodType: 'Sementes', prodTitle: 'Ypê Amarelo', prodValue: 50.00},
@@ -26,4 +26,3 @@ function Home() {
     </ImageBackground>
   );
 }
-export default Home;
