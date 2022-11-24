@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 
-import background from '../../Images/2.jpg'
+import background from '../../Images/3.jpg'
 
 function SobreNos() {
     return (

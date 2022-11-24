@@ -47,7 +47,7 @@ const CardList = ({ data }) => {
                         ></View>
 
                         {/* // Imagem do produto */}
-                        <View style={styles.imgProdCard}><Text style={styles.imgBackProd}>{item.imgProdCard}</Text></View>
+                            <View style={styles.imgProdCard}><Image style={styles.imgProd} source={require('../../Images/amarelo.jpg')}></Image></View>
 
                         {/* // Sobre o produto */}
                         <View style={styles.prodCardText}>
