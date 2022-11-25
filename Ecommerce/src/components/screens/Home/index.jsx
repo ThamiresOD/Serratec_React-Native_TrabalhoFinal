@@ -1,5 +1,5 @@
 import { SafeAreaView, ImageBackground } from 'react-native';
-import backgroundHome from '../../Images/3.jpg';
+import backgroundHome from '../../Images/Background.jpg';
 import CardList from '../CardList';
 import { styles } from './styles';
 

@@ -3,17 +3,13 @@ import React from "react";
 import Routes from "./src/routes";
 import { StatusBar } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import Home from './src/components/screens/Home';
-import CardProd from './src/components/screens/CardProd';
-
 
 export default function App() {
   return(
     <NavigationContainer>
       <StatusBar backgroundColor='#72B293' barStyle='light-content' />
-      {/* <Routes /> */}
-      {/* <Home /> */}
-      <CardProd />
+      <Routes />
+
     </NavigationContainer>  
   )
 }
