@@ -8,13 +8,7 @@ import SearchList from "../../Search";
 const { width } = Dimensions.get('window')
 
 const CardList = ({ data }) => {
-    const navigation = useNavigation();
-
-    // const [data, setData] = useState([])
-
-    // function search(s) {
-    //     setData(data.filter((d) => d.prodTitle.includes(s)));
-    // }
+    const navigation = useNavigation()
 
     return (
         <>
@@ -57,7 +51,7 @@ const CardList = ({ data }) => {
                         </View>
 
                         {/* // Botão de adicionar a uma lista -> EM CONSTRUÇÃO */}
-                        <TouchableOpacity onPress={() => navigation.navigate('CardProd')}style={styles.buttonAddLocation}><Text style={styles.buttonAdd}>+</Text></TouchableOpacity>
+                        <TouchableOpacity onPress={() => navigation.navigate('Produto')}style={styles.buttonAddLocation}><Text style={styles.buttonAdd}>+</Text></TouchableOpacity>
                     </>
                 )}
             />
