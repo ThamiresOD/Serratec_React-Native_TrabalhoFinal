@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
         backgroundColor: '#153033',
         borderRadius: 200,
         padding: '6%',
-        height: '44%',
+        height: '45%',
     },
 
     imgCardProd: {
@@ -73,7 +73,7 @@ export const styles = StyleSheet.create({
 
     areaEdit: {
         flexDirection: 'row',
-        width: '70%',
+        width: '80%',
         marginTop: '5%',
         flexWrap: 'wrap',
     },
@@ -84,9 +84,7 @@ export const styles = StyleSheet.create({
         backgroundColor: '#6FC7A7',
         borderRadius: 200,
         marginStart: '5%',
-        marginBottom: '5%',
-        padding: '2%',
-        width: '100%',
+        padding: '3%',
         justifyContent: 'center',
     },
 
