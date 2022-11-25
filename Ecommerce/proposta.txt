@@ -11,19 +11,19 @@ Requisitos do trabalho:
 
   *  Página de Login, rota Autenticada, Context Api e função de logout
 
-  -  Pelo menos 2 tipos de Navegação
+  *  Pelo menos 2 tipos de Navegação
 
-  * Página para exibir os produtos utilizando flatlist
+  ** Página para exibir os produtos utilizando flatlist
 
   * Alguma opção para filtrar os produtos
 
-  * Página com detalhes do produto selecionado
+  ** Página com detalhes do produto selecionado
 
   -  Gerenciamento do produto - CRUD com Axios, com validação dos inputs e feedback visual de erro
 
   -  Loading em todas as interações assíncronas, mensagens de confirmação e de operações realizadas com sucesso
 
-  * Página Contendo os Integrantes do Grupo
+  ** Página Contendo os Integrantes do Grupo
 
 
 Bônus:

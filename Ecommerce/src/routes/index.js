@@ -1,31 +1,11 @@
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import React from "react";
+// import { NavigationContainer } from "@react-navigation/native";
 
-import { Welcome } from "../components/screens/Welcome";
-import { Login } from "../components/screens/Login";
-import { Home } from "../components/screens/Home"
-import { RecuperarSenha } from "../components/screens/RecuperarSenha";
+// import DrawerNavigation from "./DrawerNavigation.js";
+import StackNavigation from "./StackNavigation.js";
 
-const Stack = createNativeStackNavigator();
-
-export default function Routes () {
-    return(
-        
-        <Stack.Navigator>
-            <Stack.Screen  
-                name="Welcome"
-                component={Welcome}
-                options={{ headerShown: false}}
-            />
-            <Stack.Screen  
-                name="Login"
-                component={Login}
-                options={{ headerShown: false}}
-            />
-            <Stack.Screen  
-                name="RecuperarSenha"
-                component={RecuperarSenha}
-                options={{ headerShown: false}}
-            />
-        </Stack.Navigator>
+export default function Routes() {
+    return (
+        <StackNavigation />
     )
 }
