@@ -10,7 +10,7 @@ export const Welcome = () => {
     const navigation = useNavigation();
 
     return (
-        <ImageBackground source={require('../../Images/background.jpg')}
+        <ImageBackground source={require('../../Images/Background.jpg')}
                 style={styles.imgBack}>
             <SafeAreaView>
         <View style={styles.container}>

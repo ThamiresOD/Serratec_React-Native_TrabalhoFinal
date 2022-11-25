@@ -6,6 +6,7 @@ import backgroundHome from "../../Images/background.jpg"
 
 const CardProd = ({ data }) => {
 
+
     return (
         <>
             <ImageBackground source={backgroundHome} style={styles.imgBackground}>
@@ -22,7 +23,6 @@ const CardProd = ({ data }) => {
 
                     {/* // Sobre o produto */}
                     <View style={styles.prodCardText}>
-                        <Text style={styles.prodCardStartIcon}>estrelinhas</Text>
                         <Text style={styles.prodCardTextEsp}>prodType</Text>
                         <Text style={styles.prodCardTextQt}>prodQt und.</Text>
                         <Text style={styles.prodCardTextDescri}>prodDescri prodDescri prodDescri prodDescri prodDescri  prodDescri prodDescri prodDescri.  </Text>
@@ -32,7 +32,15 @@ const CardProd = ({ data }) => {
                     {/* // Botões de edição */}
                     <View style={styles.areaEdit}>
                         <TouchableOpacity style={styles.prodEdit}>
-                            <Text style={styles.prodEditText}>Edit</Text>
+                            <Text style={styles.prodEditText}>Novo</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={styles.prodEdit}>
+                            <Text style={styles.prodEditText}>Editar</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={styles.prodEdit}>
+                            <Text style={styles.prodEditText}>Excluir</Text>
                         </TouchableOpacity>
 
                         {/* // Botão para desativar um produto temporariamente -> EM CONSTRUÇÃO */}
