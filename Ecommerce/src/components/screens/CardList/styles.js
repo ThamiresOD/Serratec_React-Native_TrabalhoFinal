@@ -49,7 +49,7 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         backgroundColor: '#071217',
         width: '75%',
-        height: '28%',
+        height: '32%',
         borderRadius: 200,
         padding: '5%',
     },
