@@ -1,10 +1,10 @@
 import { SafeAreaView, ImageBackground } from 'react-native';
-import backgroundHome from '../../Images/3.jpg';
+import backgroundHome from '../../Images/Background.jpg';
 import CardList from '../CardList';
 import { styles } from './styles';
 
 export default function Home() {
- 
+  
   const data = [
     {prodCardBack: '#93CA90', imgProdCard: '../../Images/amarelo.jpg', prodType: 'Sementes', prodTitle: 'Ypê Amarelo', prodValue: 50.00},
     {prodCardBack: '#72B293', imgProdCard: '../../Images/roxo.jpg', prodType: 'Sementes', prodTitle: 'Ypê Roxo', prodValue: 150.00},

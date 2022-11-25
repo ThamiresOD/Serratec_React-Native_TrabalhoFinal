@@ -1,11 +1,10 @@
 // import React, { useState } from "react";
 import { styles } from './styles';
-import { SafeAreaView, ImageBackground } from 'react-native';
-import { View, Text, TouchableOpacity } from 'react-native';
-import backgroundHome from '../../Images/3.jpg';
+import { SafeAreaView, ImageBackground, View, Text, TouchableOpacity, Image } from 'react-native';
+import backgroundHome from '../../Images/Background.jpg';
 
 
-const CardProd = (/*{ data }*/) => {
+const CardProd = ({ data }) => {
 
     return (
         <>
@@ -18,7 +17,7 @@ const CardProd = (/*{ data }*/) => {
 
                     {/* // Imagem do produto */}
                     <View style={styles.imgBackCardProd}>
-                        <Text style={styles.imgCardProd}>imgProdCard</Text>
+                        <Image style={styles.imgCardProd} source={require('../../Images/amarelo.jpg')}></Image>
                     </View>
 
                     {/* // Sobre o produto */}
