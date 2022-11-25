@@ -25,16 +25,13 @@ export const styles = StyleSheet.create({
         backgroundColor: '#153033',
         borderRadius: 200,
         padding: '6%',
+        height: '44%',
     },
 
     imgCardProd: {
-        backgroundColor: '#72B293',
-        color: "#071217",
         borderRadius: 200,
-        paddingTop: '35%',
-        paddingBottom: '35%',
-        paddingStart: '25%',
-        paddingEnd: '25%',
+        width: '100%',
+        height: '100%',
     },
 
     prodCardText: {
