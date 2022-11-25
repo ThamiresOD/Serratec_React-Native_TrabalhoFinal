@@ -1,7 +1,7 @@
 // import React, { useState } from "react";
 import { styles } from './styles';
 import { SafeAreaView, ImageBackground, View, Text, TouchableOpacity, Image } from 'react-native';
-import backgroundHome from '../../Images/Background.jpg';
+import backgroundHome from "../../Images/background.jpg"
 
 
 const CardProd = ({ data }) => {
