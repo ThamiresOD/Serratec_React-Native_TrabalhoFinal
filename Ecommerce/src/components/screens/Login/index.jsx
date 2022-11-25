@@ -75,7 +75,7 @@ export const Login = () => {
             placeholder="Digite sua senha" />
         </View>
         <TouchableOpacity onPress={() => navigation.navigate('RecuperarSenha')}><Text style={styles.textoBotao}>Esqueci minha senha</Text></TouchableOpacity>
-        <TouchableOpacity style={styles.botaoLogin}><Text style={styles.textoBotaoLogin}>Log In</Text></TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.botaoLogin}><Text style={styles.textoBotaoLogin}>Log In</Text></TouchableOpacity>
       </Animatable.View>
     </View>
   )

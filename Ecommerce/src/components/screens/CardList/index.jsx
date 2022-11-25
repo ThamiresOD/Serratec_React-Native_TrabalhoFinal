@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import { styles } from './styles';
 import { Dimensions, FlatList, View, Text, TouchableOpacity, Image, TextInput } from 'react-native';
+import { useNavigation } from "@react-navigation/native";
 import SearchList from "../../Search";
+// import { Menu } from '../../Menu';
 
 const { width } = Dimensions.get('window')
 
 const CardList = ({ data }) => {
+    const navigation = useNavigation();
+
     // const [data, setData] = useState([])
 
     // function search(s) {
@@ -14,6 +18,7 @@ const CardList = ({ data }) => {
 
     return (
         <>
+            {/* <Menu /> */}
             {/* // Titulo da tela */}
             <View style={styles.header}>
                 <Text style={styles.headerText}>Ecommerce</Text>
@@ -42,7 +47,7 @@ const CardList = ({ data }) => {
                         ></View>
 
                         {/* // Imagem do produto */}
-                        <View style={styles.imgProdCard}><Text style={styles.imgBackProd}>{item.imgProdCard}</Text></View>
+                            <View style={styles.imgProdCard}><Image style={styles.imgProd} source={require('../../Images/amarelo.jpg')}></Image></View>
 
                         {/* // Sobre o produto */}
                         <View style={styles.prodCardText}>
@@ -52,7 +57,7 @@ const CardList = ({ data }) => {
                         </View>
 
                         {/* // Botão de adicionar a uma lista -> EM CONSTRUÇÃO */}
-                        <TouchableOpacity style={styles.buttonAddLocation}><Text style={styles.buttonAdd}>+</Text></TouchableOpacity>
+                        <TouchableOpacity onPress={() => navigation.navigate('CardProd')}style={styles.buttonAddLocation}><Text style={styles.buttonAdd}>+</Text></TouchableOpacity>
                     </>
                 )}
             />

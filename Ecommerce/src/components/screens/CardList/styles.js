@@ -51,15 +51,15 @@ export const styles = StyleSheet.create({
         width: '75%',
         height: '28%',
         borderRadius: 200,
-        padding: '15%',
+        padding: '5%',
     },
     
-    imgBackProd: {
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: '#393915',
-        color: "#F0F4F2",
-        zIndex: 1,
+    imgProd: {
+        position: 'absolute',
+        marginTop: '40%',
+        borderRadius: 200,
+        width: '100%',
+        height: '100%',
     },
     
     prodCardText: {
