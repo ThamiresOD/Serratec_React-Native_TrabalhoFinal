@@ -1,11 +1,12 @@
 import React from "react";
-// import { NavigationContainer } from "@react-navigation/native";
+import { AuthContext } from "../contexts/AuthContext.jsx";
+import { useContext } from "react";
 
-// import DrawerNavigation from "./DrawerNavigation.js";
-import StackNavigation from "./StackNavigation.js";
+import { RotasPrivadas } from "./RotasPrivadas.js";
+import { RotasPublicas } from "./RotasPublicas.js";
 
 export default function Routes() {
-    return (
-        <StackNavigation />
-    )
+    const {logado} = useContext(AuthContext)
+
+    return logado ? <RotasPrivadas /> : <RotasPublicas/>
 }
