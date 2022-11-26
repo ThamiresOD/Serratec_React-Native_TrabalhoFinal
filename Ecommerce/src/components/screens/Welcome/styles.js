@@ -1,18 +1,12 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    imgBack: {
-        flex: 1,
-    resizeMode: "cover",
-    justifyContent: "center",
-    alignItems: "center",
-    width: '100%',
-    height: '100%',
-    },
+    
+
     container: {
         flex: 1,
         width: '100%',
-        // backgroundColor: '#071217'
+        backgroundColor: '#071217'
     },
 
     
@@ -21,11 +15,11 @@ export const styles = StyleSheet.create({
     
     },
     imgLogo: {
-        width: '60%',
+        width: '70%',
         height: '80%',
         resizeMode: 'contain',
         marginTop: '40%',
-        marginHorizontal: '20%'
+        marginHorizontal: '15%'
     },
     containerBotao: {
         flex: 0.5,

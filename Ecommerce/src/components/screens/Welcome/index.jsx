@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image, TouchableOpacity, TextInput, ImageBackground, SafeAreaView } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import { styles } from "./styles";
 
 import * as Animatable from 'react-native-animatable'
@@ -10,11 +10,7 @@ export const Welcome = () => {
     const navigation = useNavigation();
 
     return (
-        <ImageBackground source={require('../../Images/Background.jpg')}
-                style={styles.imgBack}>
-            <SafeAreaView>
         <View style={styles.container}>
-            
             <View style={styles.containerLogo}>
                 <Animatable.Image
                     animation='flipInY'
@@ -30,8 +26,7 @@ export const Welcome = () => {
                 </TouchableOpacity>
             </Animatable.View>
         </View>
-        </SafeAreaView>
-        </ImageBackground>
+
 
     )
 }

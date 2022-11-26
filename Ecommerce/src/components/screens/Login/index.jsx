@@ -7,8 +7,8 @@ import { AuthContext } from "../../../contexts/AuthContext";
 
 
 export const Login = () => {
-  const {loginContext} = useContext(AuthContext)
-
+  const { loginContext } = useContext(AuthContext)
+  const navigation = useNavigation()
   async function handleLogin() {
     loginContext()
   }
