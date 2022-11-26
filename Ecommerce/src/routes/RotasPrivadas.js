@@ -4,6 +4,7 @@ import CardProd from "../components/screens/CardProd";
 import SobreNos from "../components/screens/SobreNos";
 import Home from "../components/screens/Home"
 import Logout from "../components/screens/Logout";
+import { color } from "react-native-reanimated";
 
 const Drawer = createDrawerNavigator()
 const Stack = createNativeStackNavigator()

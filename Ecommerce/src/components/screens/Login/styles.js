@@ -132,9 +132,10 @@ export const styles = StyleSheet.create({
     },
     listaInput: {
         flex: 0.4,
-        alignItems: 'center'
+        alignItems: 'center',   
     },
     Input1: {
+        marginTop: 10,
         padding: '2%',
         width: '86%',
         backgroundColor: 'rgba(114, 178, 147, 0.5)',

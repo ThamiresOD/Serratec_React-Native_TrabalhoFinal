@@ -31,7 +31,7 @@ export const Login = () => {
         </View>
 
         <View style={styles.Input2}>
-          <TextInput style={styles.textoInput2}
+          <TextInput secureTextEntry={true} style={styles.textoInput2}
             placeholder="Digite sua senha" />
         </View>
         <TouchableOpacity onPress={() => navigation.navigate('RecuperarSenha')}><Text style={styles.textoBotao}>Esqueci minha senha</Text></TouchableOpacity>
