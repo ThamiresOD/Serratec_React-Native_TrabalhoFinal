@@ -1,27 +1,26 @@
 import api from './api';
 
-export const getProd = async () => {
+export const getAllProd = async () => {
     try {
-        const { data } = await api.get("/produtos???")
-        console.log(data)
+        const { data } = await api.get("/api")
         return data 
     } catch(e) {
         console.log(e)
     }
 }
 
-export const postProd = async (postProd) => {
+export const postProd = async (prodId) => {
     try {
-        const Prod = await api.post("/produto/" + postProd)
+        const Prod = await api.post("/api/" + prodId)
         return Prod
     } catch(e) {
         console.log(e)
     }
 }
 
-export const deleteProd = async (id) => {
+export const deleteProd = async (prodId) => {
     try {
-        const deleteProd = await api.delete("/produto/" + id)
+        const deleteProd = await api.delete("/produto/" + prodId)
         return deleteProd
     } catch(e) {
         console.log(e)
