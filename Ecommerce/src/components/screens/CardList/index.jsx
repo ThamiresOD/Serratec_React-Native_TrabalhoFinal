@@ -21,7 +21,7 @@ const CardList = ({ data }) => {
             {/* // Lista de produtos com rolagem horizontal */}
             <FlatList
                 data={data}
-                keyExtractor={item => String(item)}
+                keyExtractor={item => item.id}
                 showsHorizontalScrollIndicator={false}
                 horizontal renderItem={({ item }) => (
                     <>

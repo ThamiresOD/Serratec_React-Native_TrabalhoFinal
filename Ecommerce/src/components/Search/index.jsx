@@ -12,18 +12,16 @@ const SearchList = () => {
     }, [])
 
 
-    function search(s) {
-        let dataList = data.parse(data.stringify(originData))
-        setData(dataList.filter((d) => d.prodTitle.includes(s) || d.description.includes(s)));
-    }
+    // function search(s) {
+    //     let dataList = data.parse(data.stringify(originData))
+    //     setData(dataList.filter((d) => d.prodTitle.includes(s) || d.description.includes(s)));
+    // }
 
-
+    // onChangeText={(s) => search(s)}
     return (
-        <>
-            <View style={styles.search}>
-                <TextInput style={styles.searchText} placeholder={'pesquise aqui ...'} onChangeText={(s) => search()}></TextInput>
-            </View>
-        </>
+        <View style={styles.search}>
+            <TextInput style={styles.searchText} placeholder={'pesquise aqui ...'} ></TextInput>
+        </View>
     )
 }
 export default SearchList;

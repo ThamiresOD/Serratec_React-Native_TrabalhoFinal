@@ -85,6 +85,7 @@ export const styles = StyleSheet.create({
     
     prodCardTextValue: {
         fontSize: 20,
+        fontWeight:'900',
         textDecorationLine: 'bold',
         color: "#071217",
         marginTop: '10%',
@@ -99,7 +100,7 @@ export const styles = StyleSheet.create({
         backgroundColor: '#F0F4F2',  
         color: "#F0F4F2",
         width: '6%',
-        borderRadius: 200,
+        borderRadius: 1000,
         marginTop: '165%',
         marginStart: '60%',
         marginEnd: '10%',
@@ -108,6 +109,7 @@ export const styles = StyleSheet.create({
     buttonAdd: {
         fontSize: 30,
         color: "#071217",
+        // position: 'absolute'
     },
     
     homeCart: {
